@@ -352,4 +352,15 @@ function handleTagClick(tag: string) {
   width: 100%;
   height: 330px;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  width: 25px;   /* button area */
+  height: 25px;  /* button area */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: grey;
+  font-size: 18px; /* icon size */
+}
 </style>
