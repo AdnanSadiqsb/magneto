@@ -89,89 +89,83 @@ function handleTagClick(tag: string) {
           <div class="main-slider-v2">
             <div class="row">
               <div class="col-12 col-xl-8">
-                 <div class="slider">
-    <Swiper
-      :modules="[Navigation, Pagination, Autoplay]"
-      :loop="true"
-      :autoplay="{ delay: 3000 }"
-      :pagination="{ clickable: true }"
-      :navigation="true"
-      class="mySwiper"
-    >
-      <!-- Slide 1 -->
-      <SwiperSlide>
-        <div class="item-slider object-fit" style="height: 330px;">
-          <div class="img-slide">
-            <picture>
-              <source type="image/webp" width="768" height="330"
-                srcset="https://martfury02.magebig.com/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-01.webp"
-                media="(min-width: 768px)">
-              <source width="768" height="330"
-                srcset="https://martfury02.magebig.com/media/wysiwyg/magebig/layout02/mf02-slider-01.jpg"
-                media="(min-width: 768px)">
-              <img class="img-fluid" alt="TV Banner" width="470" height="330"
-                src="/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-mobile-01.webp" />
-            </picture>
-          </div>
-          <div class="block-content-slide">
-            <div class="block-center">
-              <p class="text-small">Samsung</p>
-              <h2 class="text-large">Smart TV 43 Inch 43M55<br>4k Full HD Tizen OS</h2>
-              <div class="text-normal">
-                <div>Sale</div>
-                <p>30% Off</p>
-              </div>
-              <div class="btn-wrap">
-                <a class="btn-shopnow action primary" href="#"><span>Shop now</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
+                <div class="slider">
+                  <Swiper :modules="[Navigation, Pagination, Autoplay]" :loop="true" :autoplay="{ delay: 3000 }"
+                    :pagination="{ clickable: true }" :navigation="true" class="mySwiper">
+                    <!-- Slide 1 -->
+                    <SwiperSlide>
+                      <div class="item-slider object-fit" style="height: 330px;">
+                        <div class="img-slide">
+                          <picture>
+                            <source type="image/webp" width="768" height="330"
+                              srcset="https://martfury02.magebig.com/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-01.webp"
+                              media="(min-width: 768px)">
+                            <source width="768" height="330"
+                              srcset="https://martfury02.magebig.com/media/wysiwyg/magebig/layout02/mf02-slider-01.jpg"
+                              media="(min-width: 768px)">
+                            <img class="img-fluid" alt="TV Banner" width="470" height="330"
+                              src="/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-mobile-01.webp" />
+                          </picture>
+                        </div>
+                        <div class="block-content-slide">
+                          <div class="block-center">
+                            <p class="text-small">Samsung</p>
+                            <h2 class="text-large">Smart TV 43 Inch 43M55<br>4k Full HD Tizen OS</h2>
+                            <div class="text-normal">
+                              <div>Sale</div>
+                              <p>30% Off</p>
+                            </div>
+                            <div class="btn-wrap">
+                              <a class="btn-shopnow action primary" href="#"><span>Shop now</span></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
 
-      <!-- Slide 2 -->
-      <SwiperSlide>
-        <div class="item-slider object-fit" style="height: 330px;">
-          <img class="img-fluid" alt="Summer Sale"
-            src="/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-mobile-02.webp" />
-          <div class="block-content-slide">
-            <div class="block-center">
-              <p class="text-small">Mega Sale, Don't Miss Out!</p>
-              <h2 class="text-large">Happy Summer<br>combo super cool</h2>
-              <div class="text-normal">
-                <div>Up to</div>
-                <p>40% Off</p>
-              </div>
-              <div class="btn-wrap">
-                <a class="btn-shopnow action primary" href="#"><span>Shop now</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
+                    <!-- Slide 2 -->
+                    <SwiperSlide>
+                      <div class="item-slider object-fit" style="height: 330px;">
+                        <img class="img-fluid" alt="Summer Sale"
+                          src="/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-mobile-02.webp" />
+                        <div class="block-content-slide">
+                          <div class="block-center">
+                            <p class="text-small">Mega Sale, Don't Miss Out!</p>
+                            <h2 class="text-large">Happy Summer<br>combo super cool</h2>
+                            <div class="text-normal">
+                              <div>Up to</div>
+                              <p>40% Off</p>
+                            </div>
+                            <div class="btn-wrap">
+                              <a class="btn-shopnow action primary" href="#"><span>Shop now</span></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
 
-      <!-- Slide 3 -->
-      <SwiperSlide>
-        <div class="item-slider object-fit" style="height: 330px;">
-          <img class="img-fluid" alt="Marshall Speaker"
-            src="/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-mobile-03.webp" />
-          <div class="block-content-slide">
-            <div class="block-center">
-              <p class="text-small">Don't Miss Out!</p>
-              <h2 class="text-large">Experience great sound<br>with Marshall speaker</h2>
-              <div class="text-normal">
-                <div><span style="text-decoration: line-through;">$225.00</span></div>
-                <p>$200.00</p>
-              </div>
-              <div class="btn-wrap">
-                <a class="btn-shopnow action primary" href="#"><span>Shop now</span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
-    </Swiper>
-  </div>
+                    <!-- Slide 3 -->
+                    <SwiperSlide>
+                      <div class="item-slider object-fit" style="height: 330px;">
+                        <img class="img-fluid" alt="Marshall Speaker"
+                          src="/media/webps/jpg/media/wysiwyg/magebig/layout02/mf02-slider-mobile-03.webp" />
+                        <div class="block-content-slide">
+                          <div class="block-center">
+                            <p class="text-small">Don't Miss Out!</p>
+                            <h2 class="text-large">Experience great sound<br>with Marshall speaker</h2>
+                            <div class="text-normal">
+                              <div><span style="text-decoration: line-through;">$225.00</span></div>
+                              <p>$200.00</p>
+                            </div>
+                            <div class="btn-wrap">
+                              <a class="btn-shopnow action primary" href="#"><span>Shop now</span></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
+                </div>
               </div>
               <div class="col-12 col-xl-4">
                 <div class="row">
@@ -352,15 +346,19 @@ function handleTagClick(tag: string) {
   width: 100%;
   height: 330px;
 }
+
 .swiper-button-next,
 .swiper-button-prev {
-  width: 25px;   /* button area */
-  height: 25px;  /* button area */
+  width: 25px;
+  /* button area */
+  height: 25px;
+  /* button area */
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
   color: grey;
-  font-size: 18px; /* icon size */
+  font-size: 18px;
+  /* icon size */
 }
 </style>

@@ -100,7 +100,7 @@
                       <div class="main-newsletter">
                         <div class="main-newsletter-inner">
                           <div class="subscribe">
-                            <form novalidate action=""
+                            <form novalidate 
                               method="post" data-mage-init='{"validation": {"errorClass": "mage-error"}}'
                               id="newsletter-validate-detail-footer"> <input name="form_key" type="hidden"
                                 value="HAPdytnD7dxITe7u">
