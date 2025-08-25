@@ -1,10 +1,12 @@
-{
-  "extends": "@antfu",
-  "rules": {
-    "curly": "warn",
-    "brace-style": "warn",
-    "comma-dangle": "warn",
-    "@typescript-eslint/brace-style": "warn",
-    "@typescript-eslint/comma-dangle": "warn"
-  }
-}
+// {
+//   "extends": "@antfu",
+//   "rules": {
+//     "curly": "warn",
+//     "brace-style": "warn",
+//     "comma-dangle": "warn",
+//     "@typescript-eslint/brace-style": "warn",
+//     "@typescript-eslint/comma-dangle": "warn",
+//     "@typescript-eslint/quotes": "off",   // ⬅ disable quotes rule
+//     "quotes": "off"                       // ⬅ also disable base quotes rule
+//   }
+// }

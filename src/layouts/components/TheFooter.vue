@@ -81,11 +81,11 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                   <div class="footer-links-wrap toggle-mobile">
-                    <div class="h4 title">MARTFURY BUSSINESS</div>
+                    <div class="h4 title">Magneto BUSSINESS</div>
                     <div class="footer-container content-toggle">
                       <ul class="footer-links">
-                        <li><a href="#">Sell on MartFury</a></li>
-                        <li><a href="#">Advertises on Martfury</a></li>
+                        <li><a href="#">Sell on Magneto</a></li>
+                        <li><a href="#">Advertises on Magneto</a></li>
                         <li><a href="#">Affiliate Program</a></li>
                         <li><a href="#">Partnership</a></li>
                       </ul>
@@ -100,7 +100,7 @@
                       <div class="main-newsletter">
                         <div class="main-newsletter-inner">
                           <div class="subscribe">
-                            <form novalidate action="https://martfury02.magebig.com/newsletter/subscriber/new/"
+                            <form novalidate action=""
                               method="post" data-mage-init='{"validation": {"errorClass": "mage-error"}}'
                               id="newsletter-validate-detail-footer"> <input name="form_key" type="hidden"
                                 value="HAPdytnD7dxITe7u">
@@ -137,7 +137,7 @@
             <div class="footer-copyright-vertical">
               <div class="row align-items-center">
                 <div class="footer-copyright col-md-5 col-sm-12">
-                  <div class="text-copyright">© 2024 Martfury. All Rights Reserved</div>
+                  <div class="text-copyright">© 2024 Magneto. All Rights Reserved</div>
                 </div>
                 <div class="footer-payment col-md-7 col-sm-12">
                   <ul class="mr-payment">
